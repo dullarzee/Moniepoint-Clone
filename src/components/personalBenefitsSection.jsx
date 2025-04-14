@@ -42,7 +42,7 @@ export default function PersonalBenefitsSection() {
                     <SubSectionInPBS
                         about="Payment"
                         heading="Seamless transactions that always go through"
-                        imageSrc="/public/images/seamLessHero.png"
+                        imageSrc="/images/seamLessHero.png"
                     >
                         Enjoy Smooth Money Moves. Transfer funds to loved ones,
                         buy airtime and settle bills effortlessly. At

@@ -5,7 +5,7 @@ import NavCreditsContent from "./navCreditsContent";
 import NavPaymentsContent from "./navPaymentsContent";
 import NavBusinessContent from "./navBusinessContent";
 export default function MobileMenuLayout() {
-    const [content, setContent] = useState("business");
+    const [content, setContent] = useState("banking");
     return (
         <>
             <div>
