@@ -10,7 +10,7 @@ export default function BlogItem({ children, time, heading }) {
     return (
         <>
             <div>
-                <div className="**:h-full w-[15rem] lg:w-[23rem]">
+                <div className="h-[12rem] lg:h-[19.5rem] **:h-full w-[15rem] lg:w-[23rem]">
                     {children}
                 </div>
                 <div className="mt-[1rem] flex flex-col">

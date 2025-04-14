@@ -1,6 +1,7 @@
 import proptype from "prop-types";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
+import MobileMenuLayout from "./mobileMenuLayout";
 
 NavBar.propTypes = {
     setOpenNav: proptype.func,
@@ -191,7 +192,10 @@ export function MobileMenu({ setOpenNav }) {
     };
     return (
         <>
-            <div className="fixed top-0 left-0 w-[100%] h-[100%] bg-primaryBlue z-70 p-[3%]">
+            <nav
+                className="fixed top-0 left-0 w-[100%] h-[100%] bg-primaryBlue z-70 p-[4.5%]
+            [scrollbar-width:thin] [scrollbar-track-color:rgb(16, 16, 56)] overflow-y-scroll"
+            >
                 <div className="flex items-center justify-between h-[3.5rem]">
                     <svg
                         className="w-[9rem] h-[80%]"
@@ -266,7 +270,11 @@ export function MobileMenu({ setOpenNav }) {
                         </svg>
                     </span>
                 </div>
-            </div>
+                <div className="mt-4">
+                    <MobileMenuLayout />
+                    {}
+                </div>
+            </nav>
         </>
     );
 }
