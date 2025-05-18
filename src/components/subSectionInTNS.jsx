@@ -37,12 +37,16 @@ export default function SubSectionInTNS({
                         {children}
                     </p>
                     <div className="flex gap-x-[1rem]">
-                        <button className="px-[1.4rem] py-[0.9rem] text-sm lg:text-base bg-indigo-600 rounded-lg text-white">
-                            {actionButton ? "Open an account" : "Get a card"}
-                        </button>
-                        <button className="px-[1.4rem] py-[0.9rem] rounded-lg bg-white text-indigo-600">
-                            Learn more
-                        </button>
+                        <a href="/register" target="_blank">
+                            <button className="px-[1.4rem] py-[0.9rem] text-sm lg:text-base bg-indigo-600 rounded-lg text-white">
+                                {actionButton
+                                    ? "Open an account"
+                                    : "Get a card"}
+                            </button>
+                            <button className="px-[1.4rem] py-[0.9rem] rounded-lg bg-white text-indigo-600">
+                                Learn more
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div className="order-1 lg:order-0">

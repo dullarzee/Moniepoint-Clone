@@ -140,9 +140,9 @@ export default function NavBar({ setOpenNav }) {
                     <div className="hidden lg:flex items-center gap-x-[1.3rem]">
                         <button
                             className="inline-flex shrink-0 items-center px-[0.8rem] py-[0.4rem] text-black rounded-full bg-blue-200
-                    gap-x-[0.3rem]"
+                    gap-x-[0.3rem] cursor-pointer"
                         >
-                            <span>Sign in</span>
+                            <Link to="/login">Sign in</Link>
                             <svg
                                 version="1.1"
                                 className="fill-slate-700 w-[0.9rem] h-[0.9rem]"
@@ -156,7 +156,7 @@ export default function NavBar({ setOpenNav }) {
                             <img
                                 alt="country flag"
                                 className="w-[2.5rem] h-[2.5rem] border rounded-full"
-                                src="../"
+                                src="/images/nigerianFlag.jpg"
                             ></img>
                             <svg
                                 version="1.1"

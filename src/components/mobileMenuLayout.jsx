@@ -4,6 +4,7 @@ import NavBankingContent from "./navBankingContent";
 import NavCreditsContent from "./navCreditsContent";
 import NavPaymentsContent from "./navPaymentsContent";
 import NavBusinessContent from "./navBusinessContent";
+import { Link } from "react-router-dom";
 export default function MobileMenuLayout() {
     const [content, setContent] = useState("banking");
     return (
@@ -127,6 +128,11 @@ export default function MobileMenuLayout() {
                         Blog
                     </span>
                 </div>
+                <Link to="/login">
+                    <button className="bg-primaryBlue2 w-full rounded-full py-3 cursor-pointer text-white mt-2">
+                        Sign in
+                    </button>
+                </Link>
             </div>
         </>
     );

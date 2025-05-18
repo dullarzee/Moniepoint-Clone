@@ -39,20 +39,22 @@ export default function BusinessHomePageHeader() {
                             with business banking solutions that meets all your
                             needs
                         </p>
-                        <button
-                            className="inline-flex gap-x-[0.8rem] items-center text-[1rem] px-[1.5rem] py-[1rem]
+                        <a href="/register" target="_blank">
+                            <button
+                                className="inline-flex gap-x-[0.8rem] items-center text-[1rem] px-[1.5rem] py-[1rem]
                     bg-blue-600 rounded-xl ml-[18%] md:ml-[34%] lg:mx-0 cursor-pointer"
-                        >
-                            Open an Account
-                            <svg
-                                version="1.1"
-                                className="fill-white w-[1.2rem] h-[1.2rem]"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 32 32"
                             >
-                                <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
-                            </svg>
-                        </button>
+                                Open an Account
+                                <svg
+                                    version="1.1"
+                                    className="fill-white w-[1.2rem] h-[1.2rem]"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32"
+                                >
+                                    <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
+                                </svg>
+                            </button>
+                        </a>
                         <p className="flex mt-[7%] md:mt-[2%] items-center text-xs lg:text-base justify-center lg:justify-normal">
                             We are licensed by{" "}
                             <img
